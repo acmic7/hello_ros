@@ -1,5 +1,6 @@
-# hello_ros
-This article aims to help you realize simple HelloWorld in ROS
+
+# hello_ros ![](https://img.shields.io/badge/ROS-15253e?style=flat&logo=ros&logoColor=fff)
+This article aims to help you realize simple HelloWorld in ROS.
 
 ## Create a workspace
 Create a workspace named ``test_ws``. The following operations are based on this directory. There must be a subfolder named src under this directory.
@@ -264,7 +265,7 @@ cd ~/test_ws/
 
 ## demonstration
 The purpose of the helloworld function pack is to print the word "hello world!" in the command window after running.
-In the root directory of the workspace, we need to import some necessary environment variables of ros, and then the command tool in ros can find our say_hello function package, and then we can use the rosrun command to run the executable program in the say_hello function package
+In the root directory of the workspace, we need to import some necessary environment variables of ros, and then the command tool in ros can find our say_hello function package, and then we can use the rosrun command to run the executable program in the say_hello function package.
 
 ```bash
 source devel/setup.bash
