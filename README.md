@@ -272,5 +272,47 @@ source devel/setup.bash
 rosrun helloworld node
 ```
 
+## Tip
 
+After compilation, the directory structure in the workspace:
 
+```bash
+tree -L 2
+```
+
+```bash
+.
+├── build
+│   ├── atomic_configure
+│   ├── catkin
+│   ├── catkin_generated
+│   ├── CATKIN_IGNORE
+│   ├── catkin_make.cache
+│   ├── CMakeCache.txt
+│   ├── CMakeFiles
+│   ├── cmake_install.cmake
+│   ├── CTestConfiguration.ini
+│   ├── CTestCustom.cmake
+│   ├── CTestTestfile.cmake
+│   ├── gtest
+│   ├── helloworld
+│   ├── Makefile
+│   └── test_results
+├── devel
+│   ├── cmake.lock
+│   ├── env.sh
+│   ├── lib
+│   ├── local_setup.bash
+│   ├── local_setup.sh
+│   ├── local_setup.zsh
+│   ├── setup.bash
+│   ├── setup.sh
+│   ├── _setup_util.py
+│   ├── setup.zsh
+│   └── share
+└── src
+    ├── CMakeLists.txt -> /opt/ros/melodic/share/catkin/cmake/toplevel.cmake
+    └── helloworld
+
+13 directories, 18 files
+```
