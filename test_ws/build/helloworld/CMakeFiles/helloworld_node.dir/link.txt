@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/helloworld_node.dir/src/helloworld_node.cpp.o  -o /home/mic/test_ws/devel/lib/helloworld/node 
